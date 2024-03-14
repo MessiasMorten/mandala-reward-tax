@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MandalaRewardTax", "MandalaRewardTax\MandalaRewardTax.csproj", "{D2D7EC4F-BBDF-4D0D-A849-773963403E3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RewardTaxLibraries", "RewardTaxLibraries\RewardTaxLibraries.csproj", "{50D7F571-73DC-4239-9896-DFF877F4F8C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2D7EC4F-BBDF-4D0D-A849-773963403E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D7EC4F-BBDF-4D0D-A849-773963403E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D7EC4F-BBDF-4D0D-A849-773963403E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D7EC4F-BBDF-4D0D-A849-773963403E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50D7F571-73DC-4239-9896-DFF877F4F8C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D7F571-73DC-4239-9896-DFF877F4F8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D7F571-73DC-4239-9896-DFF877F4F8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D7F571-73DC-4239-9896-DFF877F4F8C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF76D2BB-3F32-4655-B68B-524F95BD5C43}
+	EndGlobalSection
+EndGlobal
