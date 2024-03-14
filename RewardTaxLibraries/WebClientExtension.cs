@@ -1,6 +1,8 @@
-﻿namespace RewardTaxLibraries
+﻿using RewardTaxLibraries.Interfaces;
+
+namespace RewardTaxLibraries
 {
-    public class WebClientExtension
+    public class WebClientExtension: IWebClientExtension
     {
         private readonly HttpClient _httpClient;
 

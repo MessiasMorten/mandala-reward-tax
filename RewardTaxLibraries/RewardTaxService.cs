@@ -1,9 +1,10 @@
 ﻿using Newtonsoft.Json.Linq;
 using RewardTaxLibraries.Entities;
+using RewardTaxLibraries.Interfaces;
 
 namespace RewardTaxLibraries
 {
-    public class RewardTaxService
+    public class RewardTaxService: IRemoteTaxService
     {
         private HttpClient client;
         public RewardTaxService() {
@@ -21,8 +22,8 @@ namespace RewardTaxLibraries
             string relativePath = $"/api/3/public/price/history?from={ticker}&to=USDT&since={rewardDate}&until={datePlusOne}&period=M1";
 
             var response = client.GetAsync(relativePath).Result;
-            //if (response.StatusCode != System.Net.HttpStatusCode.OK)
-            //  throw new HttpRequestException("API did not respond OK");
+            if (response.StatusCode != System.Net.HttpStatusCode.OK)
+              throw new HttpRequestException("API encountered a bew");
              
             var result = response.Content.ReadAsStringAsync().Result;
             JObject jObject = JObject.Parse(result);

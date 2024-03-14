@@ -7,3 +7,6 @@
 /MandalaRewardTax/obj
 /RewardTaxLibraries/bin/Debug/net8.0
 /RewardTaxLibraries/obj
+/MandalaRewardTax/Properties/PublishProfiles
+/MandalaRewardTax/bin/Release/net8.0-windows
+/RewardTaxLibraries/bin/Release/net8.0
